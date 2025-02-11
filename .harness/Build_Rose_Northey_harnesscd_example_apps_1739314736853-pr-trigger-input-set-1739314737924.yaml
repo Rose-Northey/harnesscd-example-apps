@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Rose_Northey_harnesscd_example_apps_1739314736853-pr-trigger-input-set
+  identifier: Build_Rose_Northey_harnesscd_example_apps_1739314736853prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Rose_Northey_harnesscd_example_apps_1739314736853
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
